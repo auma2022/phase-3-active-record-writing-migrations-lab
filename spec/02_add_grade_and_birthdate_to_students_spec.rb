@@ -23,3 +23,4 @@ describe AddGradeAndBirthdateToStudents do
     expect(Student.where(birthdate: "April 5th").first).to eq(student)
   end
 end
+  
